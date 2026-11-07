@@ -19,3 +19,7 @@
 
 # Problem set 0:
 - learn .lower() and the input argument
+- check50: checks my code, but doesn't submit it
+- submit50 drops the code in a different repository (me50)
+- Being inside the directory is required before running check50 & submit50
+- GitHub doesn't allow password, a personal token is required
