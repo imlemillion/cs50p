@@ -27,3 +27,7 @@
 
 # Playback
 - replace(old, new): returns a new string, doesn't change the original (strings are inmutable), so the result must be stored or printed.
+
+# Faces
+- "return" gives back a value for the caller and doesn't print anything
+- When calling main(), you don't use ":"
