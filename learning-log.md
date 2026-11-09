@@ -26,8 +26,12 @@
 - GitHub doesn't allow password, a personal token is required
 
 # Playback
-- replace(old, new): returns a new string, doesn't change the original (strings are inmutable), so the result must be stored or printed.
+- replace(old, new): returns a new string, doesn't change the original (strings are immutable), so the result must be stored or printed.
 
 # Faces
 - "return" gives back a value for the caller and doesn't print anything
 - When calling main(), you don't use ":"
+
+# Einstein
+- Getting familiar with structuring code using the "main()" function convention.
+- input() always return a string, so it must be converted with int().
