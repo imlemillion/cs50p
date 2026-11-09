@@ -34,4 +34,7 @@
 
 # Einstein
 - Getting familiar with structuring code using the "main()" function convention.
-- input() always return a string, so it must be converted with int().
+- input() always returns a string, so it must be converted with int().
+
+# Tip Calculator
+- Variables define inside a function are local, and a function only receives data through its parameters.
