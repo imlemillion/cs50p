@@ -38,3 +38,4 @@
 
 # Tip Calculator
 - Variables define inside a function are local, and a function only receives data through its parameters.
+- i used dollars inside a function that only had d.
