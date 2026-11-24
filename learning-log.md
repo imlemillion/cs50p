@@ -39,3 +39,25 @@
 # Tip Calculator
 - Variables define inside a function are local, and a function only receives data through its parameters.
 - i used dollars inside a function that only had d.
+
+## Problem set 1:
+# Deep Thought
+- .strip() removes spaces on both ends and .lower() ignores capitalization, so the input is normalized before comparing.
+- Checking a value against several accepted answers keeps the program simple.
+
+# Home Federal Savings Bank
+- .startswith(text) checks the beginning of a string; .endswith(text) checks the end.
+- Order of if/elif matters: the first condition that is true wins, so the most specific case goes first.
+
+# File Extensions
+- Normalize the input first (.strip().lower()), then check how the file name ends with .endswith().
+
+# Math Interpreter
+- float() accepts decimals, int() doesn't; use float() when the result can have a decimal part.
+- Splitting the input gives a list, so I check len() before using its items.
+- "5 + a" gives a ValueError on purpose for now; try/except comes in lecture 3.
+
+# Meal Time
+- Code inside the else block must me indented; the calculation belongs inside it.
+- A function should use its parameter, not a variable than only exists in main().
+- if __name__ == "__main__": runs main() only when the file is run directly, not when it is imported.
