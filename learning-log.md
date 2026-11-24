@@ -60,5 +60,5 @@
 - "5 + a" gives a ValueError on purpose for now; try/except comes in lecture 3.
 
 # Meal Time
-- A function should use its parameter, not a variable than only exists in main().
+- A function should use its parameter, not a variable that only exists in main().
 - if __name__ == "__main__": runs main() only when the file is run directly, not when it is imported.
